@@ -1,0 +1,22 @@
+{
+  "name": "@koba04/jpeg-encoder",
+  "version": "1.0.0",
+  "description": "A JPEG encoder for Javascript ",
+  "main": "jpeg_encoder_basic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koba04/javascript-jpeg-encoder.git"
+  },
+  "keywords": [
+    "jpeg"
+  ],
+  "license" : "SEE LICENSE IN jpeg_encoder_basic.js",
+  "author": "Adobe Systems Incorporated",
+  "bugs": {
+    "url": "https://github.com/koba04/javascript-jpeg-encoder/issues"
+  },
+  "homepage": "https://github.com/koba04/javascript-jpeg-encoder#readme"
+}
