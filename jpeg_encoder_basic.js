@@ -38,6 +38,8 @@
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
+(function() {
+
 function JPEGEncoder(quality) {
   var self = this;
     var fround = Math.round;
@@ -747,6 +749,16 @@ function JPEGEncoder(quality) {
     init();
 
 };
+
+if (typeof define === 'function' && define.amd) {
+  define([], function() { return JPEGEncoder; }); // AMD
+} else if (typeof exports === 'object') {
+  module.exports = JPEGEncoder; // CommonJS
+} else {
+  this.JPEGEncoder = JPEGEncoder;
+}
+
+})();
 
 /* Example usage. Quality is an int in the range [0, 100]
 function example(quality){
